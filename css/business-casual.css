@@ -11,6 +11,7 @@ body {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+overflow-x: hidden;
 }
 
 h1,
@@ -182,7 +183,21 @@ footer p {
         font-size: 1.25em;
     }
 }
+#carousel-example-generic{
+ text-align: center;
+ margin: 0 auto;
+ width: 60%;
+}
+@media screen and (max-width: 730px){
 
+#gform{
+width:100%;
+}
+#carousel-example-generic{
+width:100%;
+}
+
+}
 @media screen and (min-width:1200px) {
     .box:after {
         content: '';
